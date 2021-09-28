@@ -1,0 +1,16 @@
+# Black requires C0326 and C0330 be disabled.
+# Warnings C0115 and C0116 are disabled since
+# I don't require a docstring for every single class or function.
+# R0903 is disabled since I sometimes use classes more like a struct.
+# I don't find the other options such as dicts, named_tuple, or dataclasses good enough.
+# R1710 is disabled since it doesn't recognize that count() is an infinite iterator,
+# leading to false positives.
+[MESSAGES CONTROL]
+disable = C0115, C0116, C0326, C0330, R0903, R1710
+
+[FORMAT]
+max-line-length = 88
+
+[BASIC]
+argument-rgx = ([^\W\d][^\W]{0,}|_[^\WA-Z]*|__[^\WA-Z\d_][^\WA-Z]+__)$
+variable-rgx = ([^\W\d][^\W]{0,}|_[^\WA-Z]*|__[^\WA-Z\d_][^\WA-Z]+__)$
