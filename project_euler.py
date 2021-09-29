@@ -43,9 +43,9 @@ def project_euler(problem_number, accurate_timing):
     runtime = time() - start_time
     print("The result from Problem", problem_number, "is:", str(result) + ".")
     if accurate_timing:
-        n = int(60 / (REPEATS * runtime))
+        n = int(150 / (REPEATS * runtime))
         runtime = min(timeit.Timer(func).repeat(repeat=REPEATS, number=n)) / n
-    print("Runtime:", "%.9f" % runtime, "seconds.")
+    print("Runtime:", "%.6f" % runtime, "seconds.")
     print()
 
 

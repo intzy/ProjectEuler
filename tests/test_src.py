@@ -19,5 +19,5 @@ def test_problem(problem_number):
     result = func()
     runtime = time() - start_time
     print("The result from Problem", problem_number, "is:", result)
-    print("Elapsed time:", "%.9f" % runtime, "seconds.")
+    print("Elapsed time:", "%.6f" % runtime, "seconds.")
     assert result == SOLUTIONS[problem_number]
