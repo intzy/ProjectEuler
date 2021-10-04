@@ -156,13 +156,37 @@ def list_n_primes(n):
 def is_prime(n):
     """
     Returns True if and only if n is a prime integer
+    A deterministic version of the Miller-Rabin primality test.
+    Assumes n < 2^64.
     """
-    if n <= 3:
-        return n >= 2
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    for i in range(5, isqrt(n) + 1, 6):
-        if n % i == 0 or n % (i + 2) == 0:
+    if not n % 2:
+        return n == 2
+    if n < 2047:
+        witness = [2]
+    elif n < 9080191:
+        witness = [31, 73]
+    elif n < 4759123141:
+        witness = [2, 7, 61]
+    elif n < 21652684502221:
+        witness = [2, 1215, 34862, 574237825]
+    elif n < 3825123056546413051:
+        witness = [2, 3, 5, 7, 11, 13, 17, 19, 23]
+    else:  # assume n < 2^64
+        witness = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+
+    t = 0
+    u = n - 1
+    while u % 2 == 0:
+        t += 1
+        u //= 2
+
+    for a in witness:
+        x = [pow(a, u, n)]
+        for _ in range(1, t + 1):
+            x.append(pow(x[-1], 2, n))
+            if x[-1] == 1 and x[-2] != 1 and x[-2] != n - 1:
+                return False
+        if x[-1] != 1:
             return False
     return True
 
