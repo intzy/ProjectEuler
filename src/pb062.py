@@ -15,9 +15,10 @@ def problem062(c=5):
     Simply check all cubes upwards,
     storing cubes in equivalence classes based on their digits.
     """
-    cubes = {}
     min_cube_id = None
     min_cube_len = inf
+    cubes = {min_cube_id: CubePermutations(min_cube_len)}
+
     for n in count(1):
         cube = n ** 3
         if int_len(cube) > min_cube_len:
@@ -25,7 +26,10 @@ def problem062(c=5):
         cube_id = "".join(sorted(str(cube)))
         if cube_id in cubes:
             cubes[cube_id].count += 1
-            if cubes[cube_id].count == c:
+            if (
+                cubes[cube_id].count == c
+                and cubes[cube_id].smallest_cube < cubes[min_cube_id].smallest_cube
+            ):
                 min_cube_len = int_len(cube)
                 min_cube_id = cube_id
         else:
