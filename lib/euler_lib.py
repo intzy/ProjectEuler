@@ -159,21 +159,27 @@ def is_prime(n):
     A deterministic version of the Miller-Rabin primality test.
     Assumes n < 2^64.
     """
+
+    def get_witness():
+        if n < 2047:
+            return [2]
+        if n < 9080191:
+            return [31, 73]
+        if n < 4759123141:
+            return [2, 7, 61]
+        if n < 21652684502221:
+            return [2, 1215, 34862, 574237825]
+        if n < 3825123056546413051:
+            return [2, 3, 5, 7, 11, 13, 17, 19, 23]
+        # assume n < 2^64
+        return [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+
+    if n <= 3:
+        return n in [2, 3]
     if not n % 2:
         return n == 2
-    if n < 2047:
-        witness = [2]
-    elif n < 9080191:
-        witness = [31, 73]
-    elif n < 4759123141:
-        witness = [2, 7, 61]
-    elif n < 21652684502221:
-        witness = [2, 1215, 34862, 574237825]
-    elif n < 3825123056546413051:
-        witness = [2, 3, 5, 7, 11, 13, 17, 19, 23]
-    else:  # assume n < 2^64
-        witness = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
 
+    witness = get_witness()
     t = 0
     u = n - 1
     while u % 2 == 0:
