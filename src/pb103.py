@@ -15,7 +15,7 @@ def problem103():
         (A for A in combinations(range(1, 50), 7) if is_special_sum_set(list(A))),
         key=sum,
     )
-    return "".join(str(k) for k in A)
+    return int("".join(str(k) for k in A))
 
 
 def is_special_sum_set(A):
