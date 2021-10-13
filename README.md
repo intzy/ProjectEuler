@@ -173,6 +173,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 091     | [Right triangles with integer coordinates](https://projecteuler.net/problem=091) | 25%        | [2.923](src/pb091.py)   |
 | 092     | [Square digit chains](https://projecteuler.net/problem=092)                      | 5%         | [0.035](src/pb092.py)   |
 | 093     | [Arithmetic expressions](https://projecteuler.net/problem=093)                   | 35%        | [0.412](src/pb093.py)   |
+| 094     | [Almost equilateral triangles](https://projecteuler.net/problem=094)             | 35%        | [0.000](src/pb094.py)   |
 | 095     | [Amicable chains](https://projecteuler.net/problem=095)                          | 30%        | [5.750](src/pb095.py)   |
 | 096     | [Su Doku](https://projecteuler.net/problem=096)                                  | 25%        | [8.984](src/pb096.py)   |
 | 097     | [Large non-Mersenne prime](https://projecteuler.net/problem=097)                 | 5%         | [0.000](src/pb097.py)   |
