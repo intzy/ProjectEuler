@@ -179,6 +179,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 097     | [Large non-Mersenne prime](https://projecteuler.net/problem=097)                 | 5%         | [0.000](src/pb097.py)   |
 | 098     | [Anagramic squares](https://projecteuler.net/problem=098)                        | 35%        | [0.257](src/pb098.py)   |
 | 099     | [Largest exponential](https://projecteuler.net/problem=099)                      | 10%        | [0.001](src/pb099.py)   |
+| 100     | [Arranged probability](https://projecteuler.net/problem=100)                     | 30%        | [0.000](src/pb100.py)   |
 | 103     | [Special subset sums: optimum](https://projecteuler.net/problem=103)             | 45%        | [102.860](src/pb103.py) |
 | 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)             | 45%        | [0.22](src/pb105.py)    |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                    | 45%        | [29.814](src/pb118.py)  |
