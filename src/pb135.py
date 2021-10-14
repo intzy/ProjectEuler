@@ -17,7 +17,7 @@ the inequaliy needed since (x - 2k) > 0.
 
 def problem135(limit=1000000, num_solns=10):
     solns = [0] * limit
-    for u in range(2, limit):
+    for u in range(1, limit):
         for v in range(4 - (u % 4), min(3 * u, (limit - 1) // u + 1), 4):
             solns[u * v] += 1
     return solns.count(num_solns)
