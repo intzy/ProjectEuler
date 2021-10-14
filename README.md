@@ -197,3 +197,4 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 493     | [Under The Rainbow](https://projecteuler.net/problem=493)                        | 10%        | [0.000](src/pb493.py)   |
 | 500     | [Problem 500!!!](https://projecteuler.net/problem=500)                           | 15%        | [1.211](src/pb500.py)   |
 | 719     | [Number Splitting](https://projecteuler.net/problem=719)                         | 5%         | [15.616](src/pb719.py)  |
+| 751     | [Concatenation Coincidence](https://projecteuler.net/problem=751)                | 5%         | [](src/pb751.py)        |
