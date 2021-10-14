@@ -184,6 +184,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)             | 45%        | [0.22](src/pb105.py)    |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                    | 45%        | [29.814](src/pb118.py)  |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                  | 30%        | [0.140](src/pb118.py)   |
+| 124     | [Ordered radicals](https://projecteuler.net/problem=124)                         | 25%        | [0.070](src/pb124.py)   |
 | 129     | [Repunit divisibility](https://projecteuler.net/problem=129)                     | 45%        | [0.318](src/pb129.py)   |
 | 130     | [Composites with prime repunit property](https://projecteuler.net/problem=130)   | 45%        | [1.094](src/pb130.py)   |
 | 131     | [Prime cube partnership](https://projecteuler.net/problem=131)                   | 40%        | [0.004](src/pb131.py)   |
