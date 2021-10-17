@@ -4,7 +4,7 @@ Project Euler Library
 A collection of functions that are used in multiple project euler problems.
 """
 
-from math import isqrt, log, log10
+from math import gcd, isqrt, log, log10
 
 
 def digit_sum(n):
@@ -204,3 +204,25 @@ def file_to_matrix(filename, separator):
     for string in strings:
         array.append(list(map(int, string.split(separator))))
     return array
+
+
+def bezouts(a, b, d):
+    """
+    Gives a solution (x, y) to ax + by = d, if one exits.
+    Otherwise, returns None.
+    """
+    if d % gcd(a, b) != 0:
+        return None
+    q = [None, None]
+    r = [a, b]
+    s = [1, 0]
+    t = [0, 1]
+    while r[-1] != 0:
+        q.append(r[-2] // r[-1])
+        r.append(r[-2] - q[-1] * r[-1])
+        s.append(s[-2] - q[-1] * s[-1])
+        t.append(t[-2] - q[-1] * t[-1])
+    m = d // r[-2]
+    x = m * s[-2]
+    y = m * t[-2]
+    return (x, y)
