@@ -172,6 +172,9 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 078     | [Coin partitions](https://projecteuler.net/problem=078)                                               | 30%        | [3.623](src/pb078.py)   |
 | 079     | [Passcode derivation](https://projecteuler.net/problem=079)                                           | 5%         | [0.000](src/pb079.py)   |
 | 080     | [Square root digital expansion](https://projecteuler.net/problem=080)                                 | 20%        | [0.002](src/pb080.py)   |
+| 081     | [Path sum: two ways](https://projecteuler.net/problem=081)                                            | 10%        | [0.005](src/pb081.py)   |
+| 082     | [Path sum: three ways](https://projecteuler.net/problem=082)                                          | 20%        | [0.371](src/pb082.py)   |
+| 083     | [Path sum: four ways](https://projecteuler.net/problem=083)                                           | 25%        | [0.007](src/pb083.py)   |
 | 085     | [Counting rectangles](https://projecteuler.net/problem=085)                                           | 15%        | [0.002](src/pb085.py)   |
 | 087     | [Prime power triples](https://projecteuler.net/problem=087)                                           | 20%        | [0.516](scr/pb087.py)   |
 | 089     | [Roman numerals](https://projecteuler.net/problem=089)                                                | 20%        | [0.006](scr/pb089.py)   |
