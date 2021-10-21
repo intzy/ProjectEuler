@@ -209,6 +209,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                   | 30%        | [2.227](src/pb204.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                   | 35%        | [0.000](src/pb277.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                    | 15%        | [0.172](src/pb345.py)   |
+| 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                     | 10%        | [52.239](src/pb357.py)  |
 | 491     | [Double pandigital number divisible by 11](https://projecteuler.net/problem=491)                      | 20%        | [0.028](src/pb491.py)   |
 | 493     | [Under The Rainbow](https://projecteuler.net/problem=493)                                             | 10%        | [0.000](src/pb493.py)   |
 | 500     | [Problem 500!!!](https://projecteuler.net/problem=500)                                                | 15%        | [1.211](src/pb500.py)   |
