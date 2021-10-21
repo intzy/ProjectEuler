@@ -197,6 +197,12 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)                                  | 45%        | [0.022](src/pb105.py)   |
 | 106     | [Special subset sums: meta-testing](https://projecteuler.net/problem=106)                             | 50%        | [0.000](src/pb106.py)   |
 | 107     | [Minimal network](https://projecteuler.net/problem=107)                                               | 35%        | [0.001](src/pb107.py)   |
+| 112     | [Bouncy numbers](https://projecteuler.net/problem=112)                                                | 15%        | [1.533](src/pb112.py)   |
+| 113     | [Non-bouncy numbers](https://projecteuler.net/problem=113)                                            | 30%        | [0.000](src/pb113.py)   |
+| 114     | [Counting block combinations I](https://projecteuler.net/problem=114)                                 | 35%        | [0.000](src/pb114.py)   |
+| 115     | [Counting block combinations II](https://projecteuler.net/problem=115)                                | 35%        | [0.007](src/pb115.py)   |
+| 116     | [Red, green or blue tiles](https://projecteuler.net/problem=116)                                      | 30%        | [0.000](src/pb116.py)   |
+| 117     | [Red, green, and blue tiles](https://projecteuler.net/problem=117)                                    | 35%        | [0.000](src/pb117.py)   |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                                         | 45%        | [29.814](src/pb118.py)  |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                       | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                              | 25%        | [0.070](src/pb124.py)   |
