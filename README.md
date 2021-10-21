@@ -190,8 +190,13 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 098     | [Anagramic squares](https://projecteuler.net/problem=098)                                             | 35%        | [0.257](src/pb098.py)   |
 | 099     | [Largest exponential](https://projecteuler.net/problem=099)                                           | 10%        | [0.001](src/pb099.py)   |
 | 100     | [Arranged probability](https://projecteuler.net/problem=100)                                          | 30%        | [0.000](src/pb100.py)   |
+| 101     | [Optimum polynomial](https://projecteuler.net/problem=101)                                            | 35%        | [0.006](src/pb101.py)   |
+| 102     | [Triangle containment](https://projecteuler.net/problem=102)                                          | 15%        | [0.003](src/pb102.py)   |
 | 103     | [Special subset sums: optimum](https://projecteuler.net/problem=103)                                  | 45%        | [102.860](src/pb103.py) |
-| 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)                                  | 45%        | [0.22](src/pb105.py)    |
+| 104     | [Pandigital Fibonacci ends](https://projecteuler.net/problem=104)                                     | 25%        | [0.474](src/pb104.py)   |
+| 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)                                  | 45%        | [0.022](src/pb105.py)   |
+| 106     | [Special subset sums: meta-testing](https://projecteuler.net/problem=106)                             | 50%        | [0.000](src/pb106.py)   |
+| 107     | [Minimal network](https://projecteuler.net/problem=107)                                               | 35%        | [0.001](src/pb107.py)   |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                                         | 45%        | [29.814](src/pb118.py)  |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                       | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                              | 25%        | [0.070](src/pb124.py)   |
