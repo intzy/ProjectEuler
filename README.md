@@ -206,6 +206,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 140     | [Modified Fibonacci golden nuggets](https://projecteuler.net/problem=140)                             | 55%        | [0.001](src/pb140.py)   |
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                 | 50%        | [37.834](src/pb146.py)  |
 | 197     | [Investigating the behaviour of a recursively defined sequence](https://projecteuler.net/problem=197) | 45%        | [0.000](src/pb197.py)   |
+| 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                   | 30%        | [2.227](src/pb204.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                   | 35%        | [0.000](src/pb277.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                    | 15%        | [0.172](src/pb345.py)   |
 | 491     | [Double pandigital number divisible by 11](https://projecteuler.net/problem=491)                      | 20%        | [0.028](src/pb491.py)   |
