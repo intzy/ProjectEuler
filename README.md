@@ -204,6 +204,9 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 116     | [Red, green or blue tiles](https://projecteuler.net/problem=116)                                      | 30%        | [0.000](src/pb116.py)   |
 | 117     | [Red, green, and blue tiles](https://projecteuler.net/problem=117)                                    | 35%        | [0.000](src/pb117.py)   |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                                         | 45%        | [29.814](src/pb118.py)  |
+| 119     | [Digit power sum](https://projecteuler.net/problem=119)                                               | 30%        | [0.002](src/pb119.py)   |
+| 120     | [Square remainders](https://projecteuler.net/problem=120)                                             | 25%        | [0.117](src/pb120.py)   |
+| 121     | [Disc game prize fund](https://projecteuler.net/problem=121)                                          | 35%        | [0.004](src/pb121.py)   |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                       | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                              | 25%        | [0.070](src/pb124.py)   |
 | 126     | [Cuboid layers](https://projecteuler.net/problem=126)                                                 | 55%        | [](src.pb126.py)        |
