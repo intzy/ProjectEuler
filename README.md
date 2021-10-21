@@ -233,6 +233,10 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 187     | [Semiprimes](https://projecteuler.net/problem=187)                                                                               | 25%        | [6.225](src/pb187.py)   |
 | 197     | [Investigating the behaviour of a recursively defined sequence](https://projecteuler.net/problem=197)                            | 45%        | [0.000](src/pb197.py)   |
 | 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                                              | 30%        | [2.227](src/pb204.py)   |
+| 205     | [Dice Game](https://projecteuler.net/problem=205)                                                                                | 15%        | [0.104](src.pb205.py)   |
+| 206     | [Concealed Square](https://projecteuler.net/problem=206)                                                                         | 5%         | [5.305](src/pb206.py)   |
+| 243     | [Resilience](https://projecteuler.net/problem=243)                                                                               | 35%        | [0.000](src/pb243.py)   |
+| 265     | [Binary Circles](https://projecteuler.net/problem=265)                                                                           | 40%        | [1.975](src/pb265.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                                              | 35%        | [0.000](src/pb277.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                                               | 15%        | [0.172](src/pb345.py)   |
 | 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                                                | 10%        | [52.239](src/pb357.py)  |
