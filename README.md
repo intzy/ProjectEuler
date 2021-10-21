@@ -238,8 +238,11 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 243     | [Resilience](https://projecteuler.net/problem=243)                                                                               | 35%        | [0.000](src/pb243.py)   |
 | 265     | [Binary Circles](https://projecteuler.net/problem=265)                                                                           | 40%        | [1.975](src/pb265.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                                              | 35%        | [0.000](src/pb277.py)   |
+| 301     | [Nim](https://projecteuler.net/problem=301)                                                                                      | 15%        | [0.000](src/pb301.py)   |
+| 315     | [Digital root clocks](https://projecteuler.net/problem=315)                                                                      | 20%        | [7.259](src/pb315.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                                               | 15%        | [0.172](src/pb345.py)   |
 | 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                                                | 10%        | [52.239](src/pb357.py)  |
+| 380     | [Amazing Mazes!](https://projecteuler.net/problem=380)                                                                           | 60%        | [0.365](src/380.py)     |
 | 491     | [Double pandigital number divisible by 11](https://projecteuler.net/problem=491)                                                 | 20%        | [0.028](src/pb491.py)   |
 | 493     | [Under The Rainbow](https://projecteuler.net/problem=493)                                                                        | 10%        | [0.000](src/pb493.py)   |
 | 500     | [Problem 500!!!](https://projecteuler.net/problem=500)                                                                           | 15%        | [1.211](src/pb500.py)   |
