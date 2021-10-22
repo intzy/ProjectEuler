@@ -175,7 +175,9 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 081     | [Path sum: two ways](https://projecteuler.net/problem=081)                                                                       | 10%        | [0.005](src/pb081.py)   |
 | 082     | [Path sum: three ways](https://projecteuler.net/problem=082)                                                                     | 20%        | [0.371](src/pb082.py)   |
 | 083     | [Path sum: four ways](https://projecteuler.net/problem=083)                                                                      | 25%        | [0.007](src/pb083.py)   |
+| 084     | [Monopoly odds](https://projecteuler.net/problem=084)                                                                            | 35%        | [0.001](src.pb084.py)   |
 | 085     | [Counting rectangles](https://projecteuler.net/problem=085)                                                                      | 15%        | [0.002](src/pb085.py)   |
+| 086     | [Cuboid route](https://projecteuler.net/problem=086)                                                                             | 35%        | [1.620](src/pb086.py)   |
 | 087     | [Prime power triples](https://projecteuler.net/problem=087)                                                                      | 20%        | [0.516](scr/pb087.py)   |
 | 088     | [Product-sum numbers](https://projecteuler.net/problem=088)                                                                      | 40%        | [0.243](src/pb088.py)   |
 | 089     | [Roman numerals](https://projecteuler.net/problem=089)                                                                           | 20%        | [0.006](scr/pb089.py)   |
