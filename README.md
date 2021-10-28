@@ -222,6 +222,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 135     | [Same differences](https://projecteuler.net/problem=135)                                                                         | 45%        | [0.899](src/pb135.py)   |
 | 136     | [Singleton difference](https://projecteuler.net/problem=136)                                                                     | 50%        | [57.266](src/pb136.py)  |
 | 137     | [Fibonacci golden nuggets](https://projecteuler.net/problem=137)                                                                 | 50%        | [1.237](src/pb137.py)   |
+| 138     | [Special isosceles triangles]https://projecteuler.net/problem=138)                                                               | 45%        | [](src/pb138.py)        |
 | 140     | [Modified Fibonacci golden nuggets](https://projecteuler.net/problem=140)                                                        | 55%        | [0.001](src/pb140.py)   |
 | 145     | [How many reversible numbers are there below one-billion?](https://projecteuler.net/problem=145)                                 | 20%        | [0.000](src/pb145.py)   |
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                                            | 50%        | [37.834](src/pb146.py)  |
