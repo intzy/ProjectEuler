@@ -200,6 +200,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 106     | [Special subset sums: meta-testing](https://projecteuler.net/problem=106)                                                        | 50%        | [0.000](src/pb106.py)   |
 | 107     | [Minimal network](https://projecteuler.net/problem=107)                                                                          | 35%        | [0.001](src/pb107.py)   |
 | 109     | [Darts](https://projecteuler.net/problem=109)                                                                                    | 45%        | [0.018](src/pb109.py)   |
+| 111     | [Primes with runs](https://projecteuler.net/problem=111)                                                                         | 45%        | [](src/pb111.py)        |
 | 112     | [Bouncy numbers](https://projecteuler.net/problem=112)                                                                           | 15%        | [1.533](src/pb112.py)   |
 | 113     | [Non-bouncy numbers](https://projecteuler.net/problem=113)                                                                       | 30%        | [0.000](src/pb113.py)   |
 | 114     | [Counting block combinations I](https://projecteuler.net/problem=114)                                                            | 35%        | [0.000](src/pb114.py)   |
