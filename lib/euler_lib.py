@@ -226,3 +226,60 @@ def bezouts(a, b, d):
     x = m * s[-2]
     y = m * t[-2]
     return (x, y)
+
+
+def pells_eqn_fundamental_soln(D):
+    """
+    Find fundamental solution (x, y) to x^2 - Dy^2 = 1.
+    """
+    s = isqrt(D)
+    t = 1
+    p = [1, s]
+    q = [0, 1]
+    x = s
+    y = 1
+    while x * x - D * y * y != 1:
+        t = (D - s * s) // t
+        a = (isqrt(D) + s) // t
+        s = t * a - s
+        p.append(a * p[-1] + p[-2])
+        q.append(a * q[-1] + q[-2])
+        x = p[-1]
+        y = q[-1]
+    return (x, y)
+
+
+def cf_period(n):
+    """
+    y / (sqrt(n) - x) = y (sqrt(n) + x) / (n - x^2)
+                      = (sqrt(n) + x) / ynew
+                      = a + (sqrt(n) - xnew) / ynew
+    It we encounter the same (x, y) as before, then we hit a new cycle.
+    """
+    remainders = []
+    x = isqrt(n)
+    y = 1
+    while (x, y) not in remainders:
+        remainders.append((x, y))
+        y = (n - pow(x, 2)) // y
+        a = (isqrt(n) + x) // y
+        x = y * a - x
+    return len(remainders) - remainders.index((x, y))
+
+
+def negative_pells_eqn_fundamental_soln(D):
+    s = isqrt(D)
+    t = 1
+    p = [1, s]
+    q = [0, 1]
+    x = s
+    y = 1
+    while x * x - D * y * y != -1:
+        t = (D - s * s) // t
+        a = (isqrt(D) + s) // t
+        s = t * a - s
+        p.append(a * p[-1] + p[-2])
+        q.append(a * q[-1] + q[-2])
+        x = p[-1]
+        y = q[-1]
+    return (x, y)
