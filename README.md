@@ -251,6 +251,6 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 491     | [Double pandigital number divisible by 11](https://projecteuler.net/problem=491)                                                 | 20%        | [0.028](src/pb491.py)   |
 | 493     | [Under The Rainbow](https://projecteuler.net/problem=493)                                                                        | 10%        | [0.000](src/pb493.py)   |
 | 500     | [Problem 500!!!](https://projecteuler.net/problem=500)                                                                           | 15%        | [1.211](src/pb500.py)   |
-| 684     | [Inverse Digit Sum](https://projecteuler.net/problem=684)                                                                        | 5%         | [](scr/pb684.py)        |
+| 684     | [Inverse Digit Sum](https://projecteuler.net/problem=684)                                                                        | 5%         | [0.000](scr/pb684.py)   |
 | 719     | [Number Splitting](https://projecteuler.net/problem=719)                                                                         | 5%         | [15.616](src/pb719.py)  |
 | 751     | [Concatenation Coincidence](https://projecteuler.net/problem=751)                                                                | 5%         | [](src/pb751.py)        |
