@@ -216,7 +216,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                                                  | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                                                         | 25%        | [0.070](src/pb124.py)   |
 | 125     | [Palindromic sums](https://projecteuler.net/problem=125)                                                                         | 25%        | [0.434](src/pb125.py)   |
-| 126     | [Cuboid layers](https://projecteuler.net/problem=126)                                                                            | 55%        | [](src.pb126.py)        |
+| 126     | [Cuboid layers](https://projecteuler.net/problem=126)                                                                            | 55%        | [2.136](src.pb126.py)   |
 | 127     | [abc-hits](https://projecteuler.net/problem=127)                                                                                 | 50%        | [3.676](src/pb127.py)   |
 | 129     | [Repunit divisibility](https://projecteuler.net/problem=129)                                                                     | 45%        | [0.318](src/pb129.py)   |
 | 130     | [Composites with prime repunit property](https://projecteuler.net/problem=130)                                                   | 45%        | [1.094](src/pb130.py)   |
