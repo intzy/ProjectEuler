@@ -192,8 +192,8 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 100     | [Arranged probability](https://projecteuler.net/problem=100)                                          | 30%        | [0.000](src/pb100.py)   |
 | 103     | [Special subset sums: optimum](https://projecteuler.net/problem=103)                                  | 45%        | [102.860](src/pb103.py) |
 | 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)                                  | 45%        | [0.22](src/pb105.py)    |
-| 108     | [Diophantine reciprocals I](https://projecteuler.net/problem=108)                                     | 30%        | [](src/pb108.py)        |
-| 110     | [Diophantine reciprocals II](https://projecteuler.net/problem=110)                                    | 40%        | [](src/pb110.py)        |
+| 108     | [Diophantine reciprocals I](https://projecteuler.net/problem=108)                                     | 30%        | [0.000](src/pb108.py)   |
+| 110     | [Diophantine reciprocals II](https://projecteuler.net/problem=110)                                    | 40%        | [0.001](src/pb110.py)   |
 | 118     | [Pandigital prime sets](https://projecteuler.net/problem=118)                                         | 45%        | [29.814](src/pb118.py)  |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                       | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                              | 25%        | [0.070](src/pb124.py)   |
