@@ -199,7 +199,9 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 105     | [Special subset sums: testing](https://projecteuler.net/problem=105)                                                             | 45%        | [0.022](src/pb105.py)   |
 | 106     | [Special subset sums: meta-testing](https://projecteuler.net/problem=106)                                                        | 50%        | [0.000](src/pb106.py)   |
 | 107     | [Minimal network](https://projecteuler.net/problem=107)                                                                          | 35%        | [0.001](src/pb107.py)   |
+| 108     | [Diophantine reciprocals I](https://projecteuler.net/problem=108)                                                                | 30%        | [0.000](src/pb108.py)   |
 | 109     | [Darts](https://projecteuler.net/problem=109)                                                                                    | 45%        | [0.018](src/pb109.py)   |
+| 110     | [Diophantine reciprocals II](https://projecteuler.net/problem=110)                                                               | 40%        | [0.001](src/pb110.py)   |
 | 111     | [Primes with runs](https://projecteuler.net/problem=111)                                                                         | 45%        | [0.044](src/pb111.py)   |
 | 112     | [Bouncy numbers](https://projecteuler.net/problem=112)                                                                           | 15%        | [1.533](src/pb112.py)   |
 | 113     | [Non-bouncy numbers](https://projecteuler.net/problem=113)                                                                       | 30%        | [0.000](src/pb113.py)   |
