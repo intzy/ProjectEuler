@@ -232,7 +232,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 149     | [Searching for a maximum-sum subsequence](https://projecteuler.net/problem=149)                                                  | 50%        | [10.775](src/pb149/py)  |
 | 151     | [Paper sheets of standard sizes: an expected-value problem](https://projecteuler.net/problem=151)                                | 50%        | [0.000](src/pb151.py)   |
 | 155     | [Counting Capacitor Circuits](https://projecteuler.net/problem=155)                                                              | 60%        | [32.805](src/pb155.py)  |
-| 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [](src/pb157.py)        |
+| 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [0.012](src/pb157.py)   |
 | 162     | [Hexadecimal numbers](https://projecteuler.net/problem=162)                                                                      | 45%        | [0.000](src/pb162.py)   |
 | 164     | [Numbers for which no three consecutive digits have a sum greater than a given value](https://projecteuler.net/problem=164)      | 45%        | [0.004](src/pb164.py)   |
 | 169     | [Exploring the number of different ways a number can be expressed as a sum of powers of 2](https://projecteuler.net/problem=169) | 50%        | [0.000](src/pb169.py)   |

@@ -4,26 +4,24 @@ Problem 157 of Project Euler.
 https://projecteuler.net/problem=157
 """
 
-from math import gcd, isqrt
+from itertools import product
+from math import gcd
+
+from sympy import divisor_count
 
 
-def problem157():
-    return solve(7)
+def problem157(limit=9):
+    return sum(solve(n) for n in range(1, limit + 1))
 
 
 def solve(n):
     g = pow(10, n)
-    solns = set()
-    for x in (
-        [1] + list(range(2, isqrt(g * g) + 1, 2)) + list(range(5, isqrt(g * g) + 1, 10))
-    ):
-        if g * g % x:
-            continue
+    count = 0
+    for e1, e2 in product(range(2 * n + 1), repeat=2):
+        x = 2 ** e1 * 5 ** e2
         y = g * g // x
+        if x > y:
+            continue
         d = gcd(x + g, y + g)
-        for p in range(1, d + 1):
-            if d % p == 0:
-                a = (x + g) // p
-                b = (y + g) // p
-                solns.add((a, b, p))
-    return len(solns)
+        count += divisor_count(d)
+    return count
