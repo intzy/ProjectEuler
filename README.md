@@ -240,6 +240,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 183     | [Maximum product of parts](https://projecteuler.net/problem=183)                                                                 | 45%        | [0.015](src/pb183.py)   |
 | 187     | [Semiprimes](https://projecteuler.net/problem=187)                                                                               | 25%        | [6.225](src/pb187.py)   |
 | 197     | [Investigating the behaviour of a recursively defined sequence](https://projecteuler.net/problem=197)                            | 45%        | [0.000](src/pb197.py)   |
+| 203     | [Squarefree Binomial Coefficients](https://projecteuler.net/problem=203)                                                         | 25%        | [2.067](src/pb203.py)   |
 | 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                                              | 30%        | [2.227](src/pb204.py)   |
 | 205     | [Dice Game](https://projecteuler.net/problem=205)                                                                                | 15%        | [0.104](src.pb205.py)   |
 | 206     | [Concealed Square](https://projecteuler.net/problem=206)                                                                         | 5%         | [5.305](src/pb206.py)   |
