@@ -4,7 +4,7 @@ Project Euler Library
 A collection of functions that are used in multiple project euler problems.
 """
 
-from math import gcd, isqrt, log, log10
+from math import ceil, floor, gcd, isqrt, log, log10
 
 
 def digit_sum(n):
@@ -107,6 +107,25 @@ def list_sum_proper_divisors(limit):
         for n in range(2 * i, limit, i):
             d[n] += i
     return d
+
+
+def list_primes_in_range(lower, upper):
+    """
+    Returns a list of all primes between lower and upper.
+    """
+    small_primes = list_primes(isqrt(upper))
+
+    # sieve indices i correspond to the number lower + i
+    sieve = [True] * (upper - lower)
+    for p in small_primes:
+        for i in range(p * ((lower - 1) // p + 1) - lower, upper - lower, p):
+            sieve[i] = False
+
+    primes = []
+    for i, x in enumerate(sieve):
+        if x:
+            primes.append(i + lower)
+    return primes
 
 
 def list_primes(limit):
