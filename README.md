@@ -251,6 +251,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                                              | 35%        | [0.000](src/pb277.py)   |
 | 301     | [Nim](https://projecteuler.net/problem=301)                                                                                      | 15%        | [0.000](src/pb301.py)   |
 | 315     | [Digital root clocks](https://projecteuler.net/problem=315)                                                                      | 20%        | [7.259](src/pb315.py)   |
+| 340     | [Crazy Function](https://projecteuler.net/problem=340)                                                                           | 30%        | [0.000](src/pb340.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                                               | 15%        | [0.172](src/pb345.py)   |
 | 347     | [Largest integer divisible by two primes](https://projecteuler.net/problem=347)                                                  | 15%        | [3.250](src/pb347.py)   |
 | 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                                                | 10%        | [52.239](src/pb357.py)  |
