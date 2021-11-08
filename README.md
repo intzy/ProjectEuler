@@ -236,6 +236,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [0.012](src/pb157.py)   |
 | 162     | [Hexadecimal numbers](https://projecteuler.net/problem=162)                                                                      | 45%        | [0.000](src/pb162.py)   |
 | 164     | [Numbers for which no three consecutive digits have a sum greater than a given value](https://projecteuler.net/problem=164)      | 45%        | [0.004](src/pb164.py)   |
+| 165     | [Intersections](https://projecteuler.net/problem=165)                                                                            | 65%        | [](src/pb165.py)        |
 | 169     | [Exploring the number of different ways a number can be expressed as a sum of powers of 2](https://projecteuler.net/problem=169) | 50%        | [0.000](src/pb169.py)   |
 | 179     | [Consecutive positive divisors](https://projecteuler.net/problem=179)                                                            | 25%        | [23.157](src/pb179.py)  |
 | 183     | [Maximum product of parts](https://projecteuler.net/problem=183)                                                                 | 45%        | [0.015](src/pb183.py)   |
