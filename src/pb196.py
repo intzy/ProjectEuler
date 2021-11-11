@@ -30,7 +30,7 @@ def solve(n):
                 (i + u, j + v)
                 for u in range(-1, 2)
                 for v in range(-1, 2)
-                if is_prime[u][v]
+                if is_prime[i + u][j + v]
             ]
             if len(adj) >= 3:
                 for u, v in adj:
