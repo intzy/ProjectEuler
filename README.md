@@ -221,6 +221,8 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 129     | [Repunit divisibility](https://projecteuler.net/problem=129)                                                                     | 45%        | [0.318](src/pb129.py)   |
 | 130     | [Composites with prime repunit property](https://projecteuler.net/problem=130)                                                   | 45%        | [1.094](src/pb130.py)   |
 | 131     | [Prime cube partnership](https://projecteuler.net/problem=131)                                                                   | 40%        | [0.004](src/pb131.py)   |
+| 132     | [Large repunit factors](https://projecteuler.net/problem=132)                                                                    | 45%        | [0.044](src/pb132.py)   |
+| 133     | [Repunit nonfactors](https://projecteuler.net/problem=133)                                                                       | 50%        | [0.020](src/pb133.py)   |
 | 134     | [Prime pair connection](https://projecteuler.net/problem=134)                                                                    | 45%        | [1.150](src/pb134.py)   |
 | 135     | [Same differences](https://projecteuler.net/problem=135)                                                                         | 45%        | [0.899](src/pb135.py)   |
 | 136     | [Singleton difference](https://projecteuler.net/problem=136)                                                                     | 50%        | [57.266](src/pb136.py)  |
