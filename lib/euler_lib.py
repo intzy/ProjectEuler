@@ -116,5 +116,3 @@ def file_to_matrix(filename, separator):
     for string in strings:
         array.append(list(map(int, string.split(separator))))
     return array
-
-

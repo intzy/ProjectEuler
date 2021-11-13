@@ -1,3 +1,7 @@
+"""
+Combinatoric functions for my solutions to Project Euler.
+"""
+
 from itertools import chain, combinations
 
 
@@ -34,7 +38,7 @@ def set_partitions(iterable, k=None):
                     yield p[:i] + [tuple([e]) + p[i]] + p[i + 1 :]
 
     if k is None:
-        for k in range(1, n + 1):
+        for k in range(1, n + 1):  # pylint: disable=R1704
             yield from set_partitions_helper(L, k)
     else:
         yield from set_partitions_helper(L, k)

@@ -1,4 +1,8 @@
-from math import log, isqrt
+"""
+Primality and prime_counting functions.
+"""
+
+from math import isqrt, log
 
 
 def is_prime(n):
