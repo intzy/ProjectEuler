@@ -18,7 +18,7 @@ we iterate though the a's, sorted by rad(a), and continue to next c when
 
 from math import gcd
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem127(limit=120000):

@@ -6,7 +6,7 @@ https://projecteuler.net/problem=357
 
 from math import isqrt
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem357(limit=10 ** 8):

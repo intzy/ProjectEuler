@@ -8,7 +8,7 @@ See problem 108
 
 from math import ceil, log, prod
 
-from lib.euler_lib import list_n_primes
+from lib.primes import list_n_primes
 
 
 def problem110(solns=4000000):

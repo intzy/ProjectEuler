@@ -4,7 +4,7 @@ Problem 105 of Project Euler.
 https://projecteuler.net/problem=105
 """
 
-from lib.euler_iterables import nonempty_subsets
+from lib.combinatorics import nonempty_subsets
 
 
 def problem105(filename="txt/pb105.txt"):

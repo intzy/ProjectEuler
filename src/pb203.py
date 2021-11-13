@@ -6,7 +6,7 @@ https://projecteuler.net/problem=203
 
 from math import comb, isqrt
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem203(rows=51):

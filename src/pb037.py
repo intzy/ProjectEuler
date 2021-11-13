@@ -6,7 +6,7 @@ https://projecteuler.net/problem=037
 
 from itertools import count, product
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem037():

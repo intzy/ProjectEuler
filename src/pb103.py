@@ -6,7 +6,7 @@ https://projecteuler.net/problem=103
 
 from itertools import combinations
 
-from lib.euler_iterables import nonempty_subsets
+from lib.combinatorics import nonempty_subsets
 
 
 # TODO optimize and make correct

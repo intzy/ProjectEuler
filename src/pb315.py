@@ -9,7 +9,7 @@ For Max's, the algorithm is the amount of LEDs of the first number,
             + the number of LEDs that are different between each number in the cycle
 """
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem315(lower_bound=10_000_000, upper_bound=20_000_000):

@@ -16,7 +16,7 @@ Clearly it suffices to check only odd p_n.
 
 from itertools import count
 
-from lib.euler_lib import list_n_primes
+from lib.primes import list_n_primes
 
 
 def problem123(limit=10 ** 10):

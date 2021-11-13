@@ -6,7 +6,7 @@ https://projecteuler.net/problem=200
 
 from math import isqrt
 
-from lib.euler_lib import is_prime, list_primes
+from lib.primes import is_prime, list_primes
 
 
 def problem200():

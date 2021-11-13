@@ -6,8 +6,8 @@ https://projecteuler.net/problem=118
 
 from math import prod
 
-from lib.euler_iterables import set_partitions
-from lib.euler_lib import list_primes
+from lib.combinatorics import set_partitions
+from lib.primes import list_primes
 
 
 def problem118():

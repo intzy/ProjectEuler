@@ -9,7 +9,7 @@ is the number of combinations of primes {p, q} such that pq < n.
 
 from bisect import bisect_left
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem187(n=10 ** 8):

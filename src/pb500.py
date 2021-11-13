@@ -7,7 +7,7 @@ https://projecteuler.net/problem=500
 import heapq
 from functools import reduce
 
-from lib.euler_lib import list_n_primes
+from lib.primes import list_n_primes
 
 
 def problem500(exponent=500500, mod=500500507):

@@ -4,7 +4,7 @@ Problem 146 of Project Euler.
 https://projecteuler.net/problem=146
 """
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem146(limit=150000000):

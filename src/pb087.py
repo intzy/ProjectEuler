@@ -8,7 +8,7 @@ https://projecteuler.net/problem=087
 from itertools import product
 from math import isqrt
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem087(limit=50_000_000):

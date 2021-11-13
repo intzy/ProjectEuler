@@ -7,7 +7,7 @@ https://projecteuler.net/problem=130
 from itertools import count, islice
 from math import gcd
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem130(terms=25):

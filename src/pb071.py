@@ -4,7 +4,7 @@ Problem 071 of Project Euler.
 https://projecteuler.net/problem=071
 """
 
-from lib.euler_lib import bezouts
+from lib.diophantine import bezouts
 
 
 def problem071(h=3, k=7, n=1000000):

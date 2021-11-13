@@ -4,7 +4,7 @@ Problem 516 of Project Euler.
 https://projecteuler.net/problem=516
 """
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem516(limit=10 ** 12, modulo=2 ** 32):

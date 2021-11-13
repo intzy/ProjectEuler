@@ -7,7 +7,7 @@ https://projecteuler.net/problem=047
 
 from itertools import count
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem047(consecutive=4):

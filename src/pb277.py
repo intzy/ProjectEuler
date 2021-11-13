@@ -24,7 +24,7 @@ It then suffices to find the least a > 10^15 with residue -rq^{-1} mod m.
 
 from math import ceil
 
-from lib.euler_lib import bezouts
+from lib.diophantine import bezouts
 
 
 def problem277(lower_bound=10 ** 15, seq="UDDDUdddDDUDDddDdDddDDUDDdUUDd"):

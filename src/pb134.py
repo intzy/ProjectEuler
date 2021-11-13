@@ -6,7 +6,9 @@ https://projecteuler.net/problem=134
 
 from itertools import count
 
-from lib.euler_lib import bezouts, int_len, is_prime, list_primes
+from lib.euler_lib import int_len
+from lib.diophantine import bezouts
+from lib.primes import is_prime, list_primes
 
 
 def problem134(limit=1000000):
