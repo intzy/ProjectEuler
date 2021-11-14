@@ -8,7 +8,7 @@ The answer is the smallest n for which phi(n) / (n - 1) < a / b.
 
 from math import ceil, prod
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem243(a=15499, b=94744):

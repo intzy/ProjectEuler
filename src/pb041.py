@@ -4,7 +4,7 @@ Problem 041 of Project Euler.
 https://projecteuler.net/problem=041
 """
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem041():

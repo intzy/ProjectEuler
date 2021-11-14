@@ -6,7 +6,7 @@ https://projecteuler.net/problem=111
 
 from itertools import combinations_with_replacement, permutations
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 DIGITS = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 

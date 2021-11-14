@@ -6,8 +6,8 @@ https://projecteuler.net/problem=051
 
 from itertools import count
 
-from lib.euler_iterables import nonempty_subsets
-from lib.euler_lib import list_primes
+from lib.combinatorics import nonempty_subsets
+from lib.primes import list_primes
 
 
 def problem051(family_size=8):

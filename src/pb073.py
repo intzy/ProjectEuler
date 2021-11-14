@@ -4,7 +4,7 @@ Problem 073 of Project Euler.
 https://projecteuler.net/problem=073
 """
 
-from lib.euler_lib import bezouts
+from lib.diophantine import bezouts
 
 
 def problem073(p1=1, q1=3, p2=1, q2=2, N=12000):

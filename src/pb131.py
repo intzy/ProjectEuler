@@ -6,7 +6,7 @@ https://projecteuler.net/problem=131
 
 from math import ceil, isqrt
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem131(limit=1000000):

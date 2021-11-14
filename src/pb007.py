@@ -4,7 +4,7 @@ Problem 007 of Project Euler.
 https://projecteuler.net/problem=007
 """
 
-from lib.euler_lib import list_n_primes
+from lib.primes import list_n_primes
 
 
 def problem007(nth=10_001):

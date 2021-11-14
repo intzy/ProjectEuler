@@ -7,7 +7,7 @@ https://projecteuler.net/problem=046
 from itertools import count
 from math import isqrt
 
-from lib.euler_lib import is_prime
+from lib.primes import is_prime
 
 
 def problem046():

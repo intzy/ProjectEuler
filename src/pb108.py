@@ -36,7 +36,7 @@ we can find n directly by looking at the alphas.
 
 from math import ceil, log, prod
 
-from lib.euler_lib import list_n_primes
+from lib.primes import list_n_primes
 
 
 def problem108(solns=1000):

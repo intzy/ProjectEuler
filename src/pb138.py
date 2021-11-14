@@ -30,7 +30,7 @@ Therefore, 5v^2 +- 1 is square, i.e.,
 This is Pell's equation and negative Pell's equation, which we know how to solve for.
 """
 
-from lib.euler_iterables import negative_pells_eqn_solns, pells_eqn_solns
+from lib.diophantine import pells_eqn_solns, negative_pells_eqn_solns
 
 
 def problem138(L=12):

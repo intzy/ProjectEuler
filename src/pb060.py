@@ -10,7 +10,7 @@ from math import inf
 import networkx as nx
 from networkx.algorithms.clique import enumerate_all_cliques
 
-from lib.euler_lib import is_prime, list_primes
+from lib.primes import is_prime, list_primes
 
 
 def problem060(n=5):

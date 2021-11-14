@@ -7,7 +7,7 @@ https://projecteuler.net/problem=077
 from functools import cache
 from itertools import count
 
-from lib.euler_lib import list_primes
+from lib.primes import list_primes
 
 
 def problem077(threshold=5000):
