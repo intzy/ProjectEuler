@@ -213,7 +213,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 119     | [Digit power sum](https://projecteuler.net/problem=119)                                                                          | 30%        | [0.002](src/pb119.py)   |
 | 120     | [Square remainders](https://projecteuler.net/problem=120)                                                                        | 25%        | [0.117](src/pb120.py)   |
 | 121     | [Disc game prize fund](https://projecteuler.net/problem=121)                                                                     | 35%        | [0.004](src/pb121.py)   |
-| 122     | [Efficient exponentiation](https://projecteuler.net/problem=122)                                                                 | 40%        | [](src/pb122.py)        |
+| 122     | [Efficient exponentiation](https://projecteuler.net/problem=122)                                                                 | 40%        | [0.313](src/pb122.py)   |
 | 123     | [Prime square remainders](https://projecteuler.net/problem=123)                                                                  | 30%        | [0.140](src/pb118.py)   |
 | 124     | [Ordered radicals](https://projecteuler.net/problem=124)                                                                         | 25%        | [0.070](src/pb124.py)   |
 | 125     | [Palindromic sums](https://projecteuler.net/problem=125)                                                                         | 25%        | [0.434](src/pb125.py)   |

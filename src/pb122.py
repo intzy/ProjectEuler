@@ -2,26 +2,33 @@
 Problem 122 of Project Euler.
 
 https://projecteuler.net/problem=122
+
+These are known as addition chains.
 """
+
+from itertools import combinations_with_replacement
 
 
 def problem122(limit=200):
-    gotten = {1}
-    x = [(1,)]
-    L = [set(x)]
-    ans = 0
-    for i in range(1, 20):
-        lasts = set()
-        L.append(set())
-        for seq in L[i - 1]:
-            for c in seq:
-                nextt = seq[-1] + c
-                if nextt in gotten or nextt > limit:
+    m = {1: 0}
+    encountered_previously = [set() for _ in range(limit + 1)]
+    chains = [[(1,)]]
+    num_mults = 0
+    while len(m) < limit:
+        num_mults += 1
+        chains.append([])
+        for chain in chains[num_mults - 1]:
+            for c1, c2 in combinations_with_replacement(chain, 2):
+                k = c1 + c2
+                if (
+                    k in chain
+                    or k < chain[-1]
+                    or k > limit
+                    or all(d in encountered_previously[k] for d in chain)
+                ):
                     continue
-                lasts.add(nextt)
-                s = seq + (nextt,)
-                L[i].add(s)
-        for x in lasts:
-            gotten.add(x)
-        ans += i * len(lasts)
-    print(ans)
+                chains[num_mults].append(chain + (k,))
+                encountered_previously[k].update(chain)
+                if k not in m:
+                    m[k] = num_mults
+    return sum(m.values())
