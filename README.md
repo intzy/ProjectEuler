@@ -232,7 +232,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 138     | [Special isosceles triangles](https://projecteuler.net/problem=138)                                                              | 45%        | [0.000](src/pb138.py)   |
 | 139     | [Pythagorean tiles](https://projecteuler.net/problem=139)                                                                        | 50%        | [5.258](src/pb139.py)   |
 | 140     | [Modified Fibonacci golden nuggets](https://projecteuler.net/problem=140)                                                        | 55%        | [0.001](src/pb140.py)   |
-| 144     | [Investigating multiple reflections of a laser beam](https://projecteuler.net/problem=144)                                       | 50%        | [](src/pb144.py)        |
+| 144     | [Investigating multiple reflections of a laser beam](https://projecteuler.net/problem=144)                                       | 50%        | [0.001](src/pb144.py)   |
 | 145     | [How many reversible numbers are there below one-billion?](https://projecteuler.net/problem=145)                                 | 20%        | [0.000](src/pb145.py)   |
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                                            | 50%        | [37.834](src/pb146.py)  |
 | 148     | [Exploring Pascal's triangle](https://projecteuler.net/problem=148)                                                              | 50%        | [0.000](src/pb148.py)   |
