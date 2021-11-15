@@ -236,7 +236,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                                            | 50%        | [37.834](src/pb146.py)  |
 | 148     | [Exploring Pascal's triangle](https://projecteuler.net/problem=148)                                                              | 50%        | [0.000](src/pb148.py)   |
 | 149     | [Searching for a maximum-sum subsequence](https://projecteuler.net/problem=149)                                                  | 50%        | [10.775](src/pb149/py)  |
-| 150     | [Searching a triangular array for a sub-triangle having minimum-sum](https://projecteuler.net/problem=150)                       | 55%        | [](src/pb150.py)        |
+| 150     | [Searching a triangular array for a sub-triangle having minimum-sum](https://projecteuler.net/problem=150)                       | 55%        | [94.642](src/pb150.py)  |
 | 151     | [Paper sheets of standard sizes: an expected-value problem](https://projecteuler.net/problem=151)                                | 50%        | [0.000](src/pb151.py)   |
 | 155     | [Counting Capacitor Circuits](https://projecteuler.net/problem=155)                                                              | 60%        | [32.805](src/pb155.py)  |
 | 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [0.012](src/pb157.py)   |
