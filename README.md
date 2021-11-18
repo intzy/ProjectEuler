@@ -236,6 +236,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 144     | [Investigating multiple reflections of a laser beam](https://projecteuler.net/problem=144)                                       | 50%        | [0.001](src/pb144.py)   |
 | 145     | [How many reversible numbers are there below one-billion?](https://projecteuler.net/problem=145)                                 | 20%        | [0.000](src/pb145.py)   |
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                                            | 50%        | [37.834](src/pb146.py)  |
+| 147     | [Rectangles in cross-hatched grids](https://projecteuler.net/problem=147)                                                        | 65%        | [0.629](src/pb147.py)   |
 | 148     | [Exploring Pascal's triangle](https://projecteuler.net/problem=148)                                                              | 50%        | [0.000](src/pb148.py)   |
 | 149     | [Searching for a maximum-sum subsequence](https://projecteuler.net/problem=149)                                                  | 50%        | [10.775](src/pb149/py)  |
 | 150     | [Searching a triangular array for a sub-triangle having minimum-sum](https://projecteuler.net/problem=150)                       | 55%        | [94.642](src/pb150.py)  |
