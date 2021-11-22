@@ -232,15 +232,18 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 138     | [Special isosceles triangles](https://projecteuler.net/problem=138)                                                              | 45%        | [0.000](src/pb138.py)   |
 | 139     | [Pythagorean tiles](https://projecteuler.net/problem=139)                                                                        | 50%        | [5.258](src/pb139.py)   |
 | 140     | [Modified Fibonacci golden nuggets](https://projecteuler.net/problem=140)                                                        | 55%        | [0.001](src/pb140.py)   |
+| 143     | [Investigating the Torricelli point of a triangle](https://projecteuler.net/problem=143)                                         | 65%        | [1.129](src/pb143.py)   |
 | 144     | [Investigating multiple reflections of a laser beam](https://projecteuler.net/problem=144)                                       | 50%        | [0.001](src/pb144.py)   |
 | 145     | [How many reversible numbers are there below one-billion?](https://projecteuler.net/problem=145)                                 | 20%        | [0.000](src/pb145.py)   |
 | 146     | [Investigating a Prime Pattern](https://projecteuler.net/problem=146)                                                            | 50%        | [37.834](src/pb146.py)  |
+| 147     | [Rectangles in cross-hatched grids](https://projecteuler.net/problem=147)                                                        | 65%        | [0.629](src/pb147.py)   |
 | 148     | [Exploring Pascal's triangle](https://projecteuler.net/problem=148)                                                              | 50%        | [0.000](src/pb148.py)   |
 | 149     | [Searching for a maximum-sum subsequence](https://projecteuler.net/problem=149)                                                  | 50%        | [10.775](src/pb149/py)  |
 | 150     | [Searching a triangular array for a sub-triangle having minimum-sum](https://projecteuler.net/problem=150)                       | 55%        | [94.642](src/pb150.py)  |
 | 151     | [Paper sheets of standard sizes: an expected-value problem](https://projecteuler.net/problem=151)                                | 50%        | [0.000](src/pb151.py)   |
 | 155     | [Counting Capacitor Circuits](https://projecteuler.net/problem=155)                                                              | 60%        | [32.805](src/pb155.py)  |
 | 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [0.012](src/pb157.py)   |
+| 160     | [Factorial trailing digits](https://projecteuler.net/problem=160)                                                                | 60%        | [0.038](src/pb160.py)   |
 | 162     | [Hexadecimal numbers](https://projecteuler.net/problem=162)                                                                      | 45%        | [0.000](src/pb162.py)   |
 | 164     | [Numbers for which no three consecutive digits have a sum greater than a given value](https://projecteuler.net/problem=164)      | 45%        | [0.004](src/pb164.py)   |
 | 165     | [Intersections](https://projecteuler.net/problem=165)                                                                            | 65%        | [21.386](src/pb165.py)  |
@@ -263,6 +266,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 315     | [Digital root clocks](https://projecteuler.net/problem=315)                                                                      | 20%        | [7.259](src/pb315.py)   |
 | 340     | [Crazy Function](https://projecteuler.net/problem=340)                                                                           | 30%        | [0.000](src/pb340.py)   |
 | 345     | [Matrix Sum](https://projecteuler.net/problem=345)                                                                               | 15%        | [0.172](src/pb345.py)   |
+| 346     | [Strong Repunits](https://projecteuler.net/problem=346)                                                                          | 15%        | [1.801](src/pb346.py)   |
 | 347     | [Largest integer divisible by two primes](https://projecteuler.net/problem=347)                                                  | 15%        | [3.250](src/pb347.py)   |
 | 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                                                | 10%        | [52.239](src/pb357.py)  |
 | 380     | [Amazing Mazes!](https://projecteuler.net/problem=380)                                                                           | 60%        | [0.365](src/380.py)     |

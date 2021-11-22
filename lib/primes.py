@@ -2,7 +2,11 @@
 Primality and prime_counting functions.
 """
 
+from bisect import bisect
+from functools import cache
 from math import isqrt, log
+
+from sympy import integer_nthroot
 
 
 def is_prime(n):
@@ -110,3 +114,44 @@ def list_primes_in_range(lower, upper):
         if x:
             primes.append(i + lower)
     return primes
+
+
+class Pi:
+    def __init__(self, limit):
+        self.primes = list_primes(isqrt(limit) + 10)
+        self.pi_cache = {}
+        self.phi_cache = {}
+
+    def pi(self, n):
+        if n in self.pi_cache:
+            return self.pi_cache[n]
+        primes = self.primes
+        if n < len(primes):
+            ans = bisect(primes, n)
+            self.pi_cache[n] = ans
+            return ans
+
+        pi = self.pi
+        phi = self.phi
+        a = pi(isqrt(isqrt(n)))
+        b = pi(isqrt(n))
+        c = pi(integer_nthroot(n, 3)[0])
+
+        ans = phi(n, a) + (b + a - 2) * (b - a + 1) // 2
+        for i in range(a + 1, b + 1):
+            w = n // primes[i - 1]
+            b_i = pi(isqrt(w))
+            ans -= pi(w)
+            if i <= c:
+                for j in range(i, b_i + 1):
+                    ans += j - 1 - pi(w // primes[j - 1])
+        self.pi_cache[n] = ans
+        return ans
+
+    @cache
+    def phi(self, n, a):
+        if a == 1:
+            return (n + 1) // 2
+        phi = self.phi
+        primes = self.primes
+        return phi(n, a - 1) - phi(n // primes[a - 1], a - 1)
