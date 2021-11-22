@@ -243,6 +243,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 151     | [Paper sheets of standard sizes: an expected-value problem](https://projecteuler.net/problem=151)                                | 50%        | [0.000](src/pb151.py)   |
 | 155     | [Counting Capacitor Circuits](https://projecteuler.net/problem=155)                                                              | 60%        | [32.805](src/pb155.py)  |
 | 157     | [Solving the diophantine equation 1/a+1/b= p/10^n](https://projecteuler.net/problem=157)                                         | 65%        | [0.012](src/pb157.py)   |
+| 159     | [Digital root sums of factorisations](https://projecteuler.net/problem=159)                                                      | 60%        | [3.668](src/pb159.py)   |
 | 160     | [Factorial trailing digits](https://projecteuler.net/problem=160)                                                                | 60%        | [0.038](src/pb160.py)   |
 | 162     | [Hexadecimal numbers](https://projecteuler.net/problem=162)                                                                      | 45%        | [0.000](src/pb162.py)   |
 | 164     | [Numbers for which no three consecutive digits have a sum greater than a given value](https://projecteuler.net/problem=164)      | 45%        | [0.004](src/pb164.py)   |
