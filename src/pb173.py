@@ -4,28 +4,19 @@ Problem 173 of Project Euler.
 https://projecteuler.net/problem=173
 """
 
+from math import isqrt
+
+from lib.euler_lib import sum_to_n
+
 
 def problem173(limit=1000000):
-    count = 0
+    c = int(0.5 * (1 + isqrt(1 + limit)))
+    ans = sum_to_n(c - 1)
 
-    evens = list(range(8, limit + 1, 8))
-    for i, x in enumerate(evens):
-        num_tiles = x
-        count += 1
-        for y in evens[i + 1 :]:
-            num_tiles += y
-            if num_tiles > limit:
-                break
-            count += 1
-
-    odds = list(range(12, limit + 1, 8))
-    for i, x in enumerate(odds):
-        num_tiles = x
-        count += 1
-        for y in odds[i + 1 :]:
-            num_tiles += y
-            if num_tiles > limit:
-                break
-            count += 1
-
-    return count
+    limit //= 4
+    y = c + 1
+    for n in range(limit // y, 0, -1):
+        ynext = limit // n + 1
+        ans += (ynext - y) * n
+        y = ynext
+    return ans
