@@ -272,7 +272,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 347     | [Largest integer divisible by two primes](https://projecteuler.net/problem=347)                                                                 | 15%        | [3.250](src/pb347.py)   |
 | 357     | [Prime generating integers](https://projecteuler.net/problem=357)                                                                               | 10%        | [52.239](src/pb357.py)  |
 | 380     | [Amazing Mazes!](https://projecteuler.net/problem=380)                                                                                          | 60%        | [0.365](src/380.py)     |
-| 387     | [Harshad Numbers](https://projecteuler.net/problem=387)                                                                                         | 10%        | [](src/pb387.py)        |
+| 387     | [Harshad Numbers](https://projecteuler.net/problem=387)                                                                                         | 10%        | [0.258](src/pb387.py)   |
 | 491     | [Double pandigital number divisible by 11](https://projecteuler.net/problem=491)                                                                | 20%        | [0.028](src/pb491.py)   |
 | 493     | [Under The Rainbow](https://projecteuler.net/problem=493)                                                                                       | 10%        | [0.000](src/pb493.py)   |
 | 500     | [Problem 500!!!](https://projecteuler.net/problem=500)                                                                                          | 15%        | [1.211](src/pb500.py)   |
