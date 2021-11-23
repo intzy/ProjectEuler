@@ -253,7 +253,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 174     | [Counting the number of "hollow" square laminae that can form one, two, three, ... distinct arrangements](https://projecteuler.net/problem=174) | 40%        | [0.459](src/pb174.py)   |
 | 179     | [Consecutive positive divisors](https://projecteuler.net/problem=179)                                                                           | 25%        | [23.157](src/pb179.py)  |
 | 183     | [Maximum product of parts](https://projecteuler.net/problem=183)                                                                                | 45%        | [0.015](src/pb183.py)   |
-| 186     | [Connectedness of a network](https://projecteuler.net/problem=186)                                                                              | 60%        | [](src/pb186.py)        |
+| 186     | [Connectedness of a network](https://projecteuler.net/problem=186)                                                                              | 60%        | [6.546](src/pb186.py)   |
 | 187     | [Semiprimes](https://projecteuler.net/problem=187)                                                                                              | 25%        | [6.225](src/pb187.py)   |
 | 196     | [Prime triplets](https://projecteuler.net/problem=196)                                                                                          | 65%        | [43.708](src/pb196.py)  |
 | 197     | [Investigating the behaviour of a recursively defined sequence](https://projecteuler.net/problem=197)                                           | 45%        | [0.000](src/pb197.py)   |
