@@ -263,6 +263,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                                                             | 30%        | [2.227](src/pb204.py)   |
 | 205     | [Dice Game](https://projecteuler.net/problem=205)                                                                                               | 15%        | [0.104](src.pb205.py)   |
 | 206     | [Concealed Square](https://projecteuler.net/problem=206)                                                                                        | 5%         | [5.305](src/pb206.py)   |
+| 214     | [Totient Chains](https://projecteuler.net/problem=214)                                                                                          | 40%        | [20.991](src/pb214/py)  |
 | 243     | [Resilience](https://projecteuler.net/problem=243)                                                                                              | 35%        | [0.000](src/pb243.py)   |
 | 265     | [Binary Circles](https://projecteuler.net/problem=265)                                                                                          | 40%        | [1.975](src/pb265.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                                                             | 35%        | [0.000](src/pb277.py)   |
