@@ -255,6 +255,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 183     | [Maximum product of parts](https://projecteuler.net/problem=183)                                                                                | 45%        | [0.015](src/pb183.py)   |
 | 186     | [Connectedness of a network](https://projecteuler.net/problem=186)                                                                              | 60%        | [6.546](src/pb186.py)   |
 | 187     | [Semiprimes](https://projecteuler.net/problem=187)                                                                                              | 25%        | [6.225](src/pb187.py)   |
+| 188     | [The hyperexponentiation of a number](https://projecteuler.net/problem=188)                                                                     | 35%        | [0.000](src/pb188.py)   |
 | 196     | [Prime triplets](https://projecteuler.net/problem=196)                                                                                          | 65%        | [43.708](src/pb196.py)  |
 | 197     | [Investigating the behaviour of a recursively defined sequence](https://projecteuler.net/problem=197)                                           | 45%        | [0.000](src/pb197.py)   |
 | 200     | [Find the 200th prime-proof sqube containing the contiguous sub-string "200"](https://projecteuler.net/problem=200)                             | 65%        | [1.185](src/pb200.py)   |
@@ -262,6 +263,7 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 204     | [Generalised Hamming Numbers](https://projecteuler.net/problem=204)                                                                             | 30%        | [2.227](src/pb204.py)   |
 | 205     | [Dice Game](https://projecteuler.net/problem=205)                                                                                               | 15%        | [0.104](src.pb205.py)   |
 | 206     | [Concealed Square](https://projecteuler.net/problem=206)                                                                                        | 5%         | [5.305](src/pb206.py)   |
+| 214     | [Totient Chains](https://projecteuler.net/problem=214)                                                                                          | 40%        | [20.991](src/pb214/py)  |
 | 243     | [Resilience](https://projecteuler.net/problem=243)                                                                                              | 35%        | [0.000](src/pb243.py)   |
 | 265     | [Binary Circles](https://projecteuler.net/problem=265)                                                                                          | 40%        | [1.975](src/pb265.py)   |
 | 277     | [A Modified Collatz sequence](https://projecteuler.net/problem=277)                                                                             | 35%        | [0.000](src/pb277.py)   |
