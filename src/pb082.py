@@ -8,7 +8,7 @@ Dynamic programming.
 
 from math import inf
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem082(filename="txt/pb082.txt"):

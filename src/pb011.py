@@ -7,7 +7,7 @@ https://projecteuler.net/problem=011
 from itertools import product
 from math import prod
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem011(length=4, filename="txt/pb011.txt"):

@@ -4,7 +4,7 @@ Problem 067 of Project Euler.
 https://projecteuler.net/problem=067
 """
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem067(filename="txt/pb067.txt"):

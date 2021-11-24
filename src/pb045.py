@@ -5,7 +5,7 @@ https://projecteuler.net/problem=045
 """
 
 
-from lib.euler_lib import is_pentagonal
+from lib.misc import is_pentagonal
 
 
 def problem045(count=3):

@@ -10,7 +10,7 @@ The solution is
 where phi is the euler-totient function.
 """
 
-from lib.euler_lib import sum_to_n
+from lib.misc import sum_to_n
 from lib.number_theory import TotientSum
 
 

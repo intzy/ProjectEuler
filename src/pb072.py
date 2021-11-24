@@ -12,7 +12,7 @@ n is phi(n), where phi is Euler's totient function.
 Summing up all phis from 2 to d gives the desired result.
 """
 
-from lib.euler_lib import list_totients
+from lib.number_theory import list_totients
 
 
 def problem072(d=1000000):

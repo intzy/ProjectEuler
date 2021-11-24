@@ -6,7 +6,7 @@ https://projecteuler.net/problem=001
 
 from math import lcm
 
-from lib.euler_lib import sum_to_n
+from lib.misc import sum_to_n
 
 
 def problem001(m1=3, m2=5, limit=1000):

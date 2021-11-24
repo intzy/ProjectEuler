@@ -4,7 +4,7 @@ Problem 056 of Project Euler.
 https://projecteuler.net/problem=056
 """
 
-from lib.euler_lib import digit_sum
+from lib.misc import digit_sum
 
 
 def problem056(limit=100):

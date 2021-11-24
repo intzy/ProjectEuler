@@ -7,7 +7,7 @@ A triganle xyz contains the origin if and only if x * xy, y * yz, and z * zx
 all have the same sign, where * denotes cross product.
 """
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem102():

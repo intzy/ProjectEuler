@@ -4,7 +4,7 @@ Problem 196 of Project Euler.
 https://projecteuler.net/problem=196
 """
 
-from lib.euler_lib import sum_to_n
+from lib.misc import sum_to_n
 from lib.primes import list_primes_in_range
 
 

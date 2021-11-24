@@ -6,7 +6,7 @@ https://projecteuler.net/problem=214
 
 from functools import cache
 
-from lib.euler_lib import list_totients
+from lib.number_theory import list_totients
 from lib.primes import list_primes
 
 

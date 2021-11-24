@@ -32,7 +32,7 @@ Further analysis can be used
 from itertools import count
 from math import isqrt
 
-from lib.euler_lib import is_square
+from lib.misc import is_square
 
 
 def problem137(m=15):

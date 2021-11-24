@@ -7,7 +7,7 @@ https://projecteuler.net/problem=044
 from itertools import count
 from math import isqrt
 
-from lib.euler_lib import is_pentagonal
+from lib.misc import is_pentagonal
 
 
 def problem044():

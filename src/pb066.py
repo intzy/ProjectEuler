@@ -6,7 +6,7 @@ https://projecteuler.net/problem=066
 
 from math import isqrt
 
-from lib.euler_lib import is_square
+from lib.misc import is_square
 
 
 def problem066(limit=1000):

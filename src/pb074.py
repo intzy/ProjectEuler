@@ -4,7 +4,7 @@ Problem 074 of Project Euler.
 https://projecteuler.net/problem=074
 """
 
-from lib.euler_lib import digit_factorial
+from lib.misc import digit_factorial
 
 
 def problem074(limit=1_000_000):

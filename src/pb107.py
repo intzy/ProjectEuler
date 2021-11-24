@@ -6,6 +6,8 @@ https://projecteuler.net/problem=107
 Kruskal's algorithm.
 """
 
+from lib.datastructs import DisjointSets
+
 
 def problem107(filename="txt/pb107.txt"):
     with open(filename, "r", encoding="utf-8") as f:
@@ -34,21 +36,3 @@ class Edge:
     def __init__(self, weight, u, v):
         self.weight = weight
         self.vertices = (u, v)
-
-
-class DisjointSets:
-    def __init__(self, size):
-        self.parent = list(range(size))
-
-    def get_representative(self, n):
-        if self.parent[n] == n:
-            return n
-
-        parent = self.get_representative(self.parent[n])
-        self.parent[n] = parent
-        return parent
-
-    def set_union(self, n, m):
-        rep_n = self.get_representative(n)
-        rep_m = self.get_representative(m)
-        self.parent[rep_n] = rep_m

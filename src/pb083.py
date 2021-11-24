@@ -8,7 +8,7 @@ Bellman-Ford.
 
 from math import inf
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem083(filename="txt/pb083.txt"):

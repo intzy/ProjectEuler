@@ -7,7 +7,7 @@ https://projecteuler.net/problem=062
 from itertools import count
 from math import inf
 
-from lib.euler_lib import int_len
+from lib.misc import int_len
 
 
 def problem062(c=5):

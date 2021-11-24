@@ -9,7 +9,7 @@ Could probably be made significantly faster if I changed the 2d 9*9 lists
 into a 1d 1*81 list.
 """
 
-from lib.euler_lib import concat_ints
+from lib.misc import concat_ints
 
 
 def problem096(filename="txt/pb096.txt"):

@@ -6,7 +6,7 @@ https://projecteuler.net/problem=081
 Dynamic Programming.
 """
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem081(filename="txt/pb081.txt"):

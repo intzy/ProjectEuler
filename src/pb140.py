@@ -34,7 +34,7 @@ Thus, the above code solves the problem, though it is not rigorous.
 
 from itertools import count
 
-from lib.euler_lib import is_square
+from lib.misc import is_square
 
 
 def problem140():

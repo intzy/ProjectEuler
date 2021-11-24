@@ -6,7 +6,7 @@ https://projecteuler.net/problem=345
 
 from itertools import combinations
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem345(filename="txt/pb345.txt"):

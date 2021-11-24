@@ -6,7 +6,7 @@ https://projecteuler.net/problem=059
 
 from itertools import product
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem059(filename="txt/pb059.txt"):

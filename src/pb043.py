@@ -6,7 +6,7 @@ https://projecteuler.net/problem=043
 
 from itertools import permutations
 
-from lib.euler_lib import concat_ints
+from lib.misc import concat_ints
 
 DIVISORS = [1, 2, 3, 5, 7, 11, 13, 17]
 

@@ -4,7 +4,7 @@ Problem 035 of Project Euler.
 https://projecteuler.net/problem=035
 """
 
-from lib.euler_lib import concat_ints
+from lib.misc import concat_ints
 from lib.primes import list_primes
 
 

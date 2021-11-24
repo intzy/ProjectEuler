@@ -6,7 +6,7 @@ https://projecteuler.net/problem=052
 
 from itertools import count
 
-from lib.euler_lib import is_digit_permutation
+from lib.misc import is_digit_permutation
 
 
 def problem052(multiples=6):

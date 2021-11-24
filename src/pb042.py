@@ -4,7 +4,7 @@ Problem 042 of Project Euler.
 https://projecteuler.net/problem=042
 """
 
-from lib.euler_lib import is_square
+from lib.misc import is_square
 
 UPPER_CASE_CORRECTION = -64
 

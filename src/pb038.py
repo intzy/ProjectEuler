@@ -6,7 +6,7 @@ https://projecteuler.net/problem=038
 
 from itertools import count
 
-from lib.euler_lib import concat_ints
+from lib.misc import concat_ints
 
 
 def problem038():

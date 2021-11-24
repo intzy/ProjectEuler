@@ -7,7 +7,7 @@ https://projecteuler.net/problem=049
 
 from itertools import combinations
 
-from lib.euler_lib import concat_ints, is_digit_permutation
+from lib.misc import concat_ints, is_digit_permutation
 from lib.primes import list_primes
 
 

@@ -4,7 +4,7 @@ Problem 036 of Project Euler.
 https://projecteuler.net/problem=036
 """
 
-from lib.euler_lib import is_palindrome
+from lib.misc import is_palindrome
 
 
 def problem036(bound=1_000_000):

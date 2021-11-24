@@ -7,7 +7,7 @@ https://projecteuler.net/problem=119
 from itertools import count
 from math import ceil, log10
 
-from lib.euler_lib import digit_sum
+from lib.misc import digit_sum
 
 
 def problem119(n=30):

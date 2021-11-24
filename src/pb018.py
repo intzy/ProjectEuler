@@ -4,7 +4,7 @@ Problem 018 of Project Euler.
 https://projecteuler.net/problem=018
 """
 
-from lib.euler_lib import file_to_matrix
+from lib.misc import file_to_matrix
 
 
 def problem018(filename="txt/pb018.txt"):

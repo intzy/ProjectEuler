@@ -7,7 +7,7 @@ https://projecteuler.net/problem=093
 from itertools import combinations, count, permutations, product
 from math import inf
 
-from lib.euler_lib import concat_ints
+from lib.misc import concat_ints
 
 
 def problem093():

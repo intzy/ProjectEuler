@@ -85,42 +85,6 @@ def digit_factorial(number):
     return answer
 
 
-def list_totients(limit):
-    """
-    Returns a list of phi(n), the Euler totient function, for 0 <= n < limit.
-    """
-    phi = [0 for _ in range(limit)]
-    phi[1] = 1
-    for n in range(2, limit):
-        if phi[n] != 0:
-            continue
-        phi[n] = n - 1
-        for k in range(2, (limit - 1) // n + 1):
-            if phi[k] == 0:
-                continue
-            q = k
-            f = n - 1
-            while not q % n:
-                f *= n
-                q //= n
-            # phi(k * n) = n^r * (n - 1) * phi(k // n^r),
-            # where r is the exponent of n in the prime factorization of k.
-            phi[k * n] = f * phi[q]
-    return phi
-
-
-def list_sum_proper_divisors(limit):
-    """
-    Returns a list d,
-    where d[n] is the sum of the proper divisors of d.
-    """
-    d = [1] * limit
-    for i in range(2, limit // 2):
-        for n in range(2 * i, limit, i):
-            d[n] += i
-    return d
-
-
 def file_to_matrix(filename, separator):
     with open(filename, "r", encoding="utf-8") as f:
         strings = f.readlines()

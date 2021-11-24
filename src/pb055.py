@@ -4,7 +4,7 @@ Problem 055 of Project Euler.
 https://projecteuler.net/problem=055
 """
 
-from lib.euler_lib import is_palindrome
+from lib.misc import is_palindrome
 
 
 def problem055(limit=10_000, iterations=50):

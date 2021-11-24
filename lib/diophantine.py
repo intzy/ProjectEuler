@@ -4,7 +4,7 @@ Diophantine equation solvers.
 
 from math import gcd, isqrt
 
-from lib.euler_lib import is_square
+from lib.misc import is_square
 
 
 def bezouts(a, b, d):

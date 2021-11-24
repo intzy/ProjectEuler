@@ -4,7 +4,7 @@ Problem 006 of Project Euler.
 https://projecteuler.net/problem=006
 """
 
-from lib.euler_lib import sum_to_n
+from lib.misc import sum_to_n
 
 
 def problem006(n=100):

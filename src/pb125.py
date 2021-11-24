@@ -6,7 +6,7 @@ https://projecteuler.net/problem=125
 
 from math import isqrt
 
-from lib.euler_lib import is_palindrome
+from lib.misc import is_palindrome
 
 
 def problem125(limit=pow(10, 8)):

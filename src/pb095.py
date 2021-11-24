@@ -4,7 +4,7 @@ Problem 095 of Project Euler.
 https://projecteuler.net/problem=095
 """
 
-from lib.euler_lib import list_sum_proper_divisors
+from lib.number_theory import list_sum_proper_divisors
 
 
 def problem095(limit=1000000):

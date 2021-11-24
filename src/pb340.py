@@ -4,7 +4,7 @@ Problem 340 of Project Euler.
 https://projecteuler.net/problem=340
 """
 
-from lib.euler_lib import sum_to_n
+from lib.misc import sum_to_n
 
 
 def problem340(a=21 ** 7, b=7 ** 21, c=12 ** 7, modulo=10 ** 9):

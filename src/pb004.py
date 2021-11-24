@@ -4,7 +4,7 @@ Problem 004 of Project Euler.
 https://projecteuler.net/problem=004
 """
 
-from lib.euler_lib import is_palindrome
+from lib.misc import is_palindrome
 
 
 def problem004():

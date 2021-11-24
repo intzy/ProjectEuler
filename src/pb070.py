@@ -5,7 +5,8 @@ https://projecteuler.net/problem=070
 """
 
 
-from lib.euler_lib import is_digit_permutation, list_totients
+from lib.misc import is_digit_permutation
+from lib.number_theory import list_totients
 
 
 # TODO Optimize
