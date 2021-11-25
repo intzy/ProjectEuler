@@ -285,3 +285,4 @@ I assume basic arithmetic functions such as addition and multiplication takes co
 | 686     | [Powers of Two](https://projecteuler.net/problem=686)                                                                                           | 5%         | [37.747](src/pb686.py)  |
 | 719     | [Number Splitting](https://projecteuler.net/problem=719)                                                                                        | 5%         | [15.616](src/pb719.py)  |
 | 751     | [Concatenation Coincidence](https://projecteuler.net/problem=751)                                                                               | 5%         | [](src/pb751.py)        |
+| 764     | [Asymmetric Diophantine Equation](https://projecteuler.net/problem=764)                                                                         | Recent     | [23.670](src/pb764.py)  |
