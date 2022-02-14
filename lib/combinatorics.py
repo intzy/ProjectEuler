@@ -6,6 +6,9 @@ from itertools import chain, combinations
 
 
 def nonempty_subsets(itr):
+    """
+    An iterator that yields all nonempty subsets of "itr".
+    """
     return chain.from_iterable(
         combinations(itr, r) for r in range(1, len(list(itr)) + 1)
     )
@@ -13,6 +16,8 @@ def nonempty_subsets(itr):
 
 def set_partitions(iterable, k=None):
     """
+    An iterator which yields all partitions of "iterable".
+
     Modified from https://pypi.org/project/more-itertools/.
     """
     L = list(iterable)

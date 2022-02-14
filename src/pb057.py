@@ -12,7 +12,7 @@ def problem057(limit=1000):
     """
     p = [1, 3]
     q = [1, 2]
-    for i in range(2, limit + 1):
+    for _ in range(2, limit + 1):
         p.append(2 * p[-1] + p[-2])
         q.append(2 * q[-1] + q[-2])
     return sum(1 for i in range(1, limit + 1) if len(str(p[i])) > len(str(q[i])))

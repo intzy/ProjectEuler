@@ -21,7 +21,7 @@ def bezouts(a, b, d):
     while r[-1] != 0:
         q.append(r[-2] // r[-1])
         r.append(r[-2] - q[-1] * r[-1])
-        s.append(s[-2] - q[-1] * s[-1])
+        s.append(s[-2] - [-1] * s[-1])
         t.append(t[-2] - q[-1] * t[-1])
     m = d // r[-2]
     x = m * s[-2]

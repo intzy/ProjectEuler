@@ -12,7 +12,7 @@ digits of these numbers are the digits of i.
 
 
 def problem164(n=20):
-    f = [[0] * 100 for i in range(n + 1)]
+    f = [[0] * 100 for _ in range(n + 1)]
     for i in range(10, 100):
         f[2][i] = 1
     for m in range(3, n + 1):
